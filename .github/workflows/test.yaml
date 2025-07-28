@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     branches:
       - main
-      - test--actions 
+      - Test--actions 
   pull_request:
 
 concurrency:
