@@ -1,6 +1,11 @@
 name: "Testing OpenRuntimes"
 
-on: [ pull_request ]
+on:
+  workflow_dispatch:
+    branches:
+      - main
+      - test--actions 
+  pull_request:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
