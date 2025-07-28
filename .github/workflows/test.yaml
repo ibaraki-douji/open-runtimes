@@ -2,6 +2,7 @@ name: "Testing OpenRuntimes"
 
 on:
   workflow_dispatch:
+  push:
     branches:
       - main
       - Test--actions 
